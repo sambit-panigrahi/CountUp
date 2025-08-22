@@ -1,0 +1,9 @@
+/* App wrapper for center alignment and background */
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8d3d3, #d6a4a4);
+  padding: 20px;
+}

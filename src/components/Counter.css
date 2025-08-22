@@ -1,0 +1,40 @@
+.Counter-container {
+  background: linear-gradient(145deg, #e3c4a3, #e07e0e);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect */
+.Counter-container:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+#para {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #e06400;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+#button:hover {
+  background-color: #ffe3c1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
